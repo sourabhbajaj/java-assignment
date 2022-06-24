@@ -45,10 +45,10 @@ None
 
 Newly generated unique authentication token
 
->`{`  
->&nbsp;&nbsp;&nbsp;&nbsp;`success: true,`  
->&nbsp;&nbsp;&nbsp;&nbsp;`authToken: "slkjf45987495f54o7ghoni8josy4h"`  
->`}`
+`{      
+success: true,   
+authToken: "slkjf45987495f54o7ghoni8josy4h"     
+}`
   
 ---
 ## POST /user

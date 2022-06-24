@@ -45,12 +45,12 @@ None
 
 Newly generated unique authentication token
 
-`
+```
 {      
     success: true,   
     authToken: "slkjf45987495f54o7ghoni8josy4h"     
 }
-`
+```
   
 ---
 ## POST /user
@@ -77,22 +77,26 @@ None
 | city | true | String | Users city |
 
 **Sample JSON Body**
->`{`  
->&nbsp;&nbsp;&nbsp;&nbsp;`name: "John Doe",`  
->&nbsp;&nbsp;&nbsp;&nbsp;`email: "john@example.com"`,
->&nbsp;&nbsp;&nbsp;&nbsp;`mobilenumber: [`
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"9191919191","9155667678"`  
->&nbsp;&nbsp;&nbsp;&nbsp;`]`  
->`}`
-
+```
+{
+    name: "John Doe",`  
+    email: "john@example.com",
+    mobilenumber: [
+        "9191919191",
+        "9155667678"
+    ]  
+}
+```
 ## Response
 
 Newly generated unique authentication token
 
->`{`  
->&nbsp;&nbsp;&nbsp;&nbsp;`success: true,`  
->&nbsp;&nbsp;&nbsp;&nbsp;`userId: 5`  
->`}`
+```
+{
+    success: true,  
+    userId: 5  
+}
+```
 
 
 ---
@@ -117,18 +121,25 @@ None
 
 Newly generated unique authentication token
 
->`{`  
->&nbsp;&nbsp;&nbsp;&nbsp;`success: true,`  
->&nbsp;&nbsp;&nbsp;&nbsp;`users: [`  
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`{`  
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`name:"John Doe",`  
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`email:"john@example.com",`   
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`mobilenumber:["9191919191","9155667678"]`   
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`}`  
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`{`  
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`name:"Merry Jane",`     
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`mobilenumber:["9797979797","9898989898"]`   
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`}`  
->&nbsp;&nbsp;&nbsp;&nbsp;`]`  
->`}`
+```
+{
+    success: true,  
+    users: [
+        {  
+            name:"John Doe",  
+            email:"john@example.com",   
+            mobilenumber:[
+                "9191919191",
+                "9155667678"
+            ]   
+        },  
+        {  
+            name:"Merry Jane",     
+            mobilenumber:[
+                "9797979797",
+                "9898989898"
+            ]   
+        }  
+    ]  
+}
 

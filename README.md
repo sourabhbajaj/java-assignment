@@ -47,8 +47,8 @@ Newly generated unique authentication token
 
 `
 {      
-success: true,   
-authToken: "slkjf45987495f54o7ghoni8josy4h"     
+    success: true,   
+    authToken: "slkjf45987495f54o7ghoni8josy4h"     
 }
 `
   

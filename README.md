@@ -89,7 +89,7 @@ None
 ```
 ## Response
 
-Newly generated unique authentication token
+ID of the newly registered user.
 
 ```
 {
@@ -119,7 +119,7 @@ None
 
 ## Response
 
-Newly generated unique authentication token
+List of users registered for the auth token provided. 
 
 ```
 {

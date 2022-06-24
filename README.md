@@ -7,7 +7,7 @@ To complete this assignment, you're expected to complete the following tasks:
 1. Deploy a test project on your local environment
 2. Write APIs as per the specifications given below
 3. Upload it on a public Github repository
-4. Share the repository URL back to us
+4. Share the repository URL with us
 5. Keep the project ready to run at the time of tech interview
 6. Create [Postman](https://www.postman.com/) package to test and demo your APIs
 

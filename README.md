@@ -1,6 +1,6 @@
 # SAuth API - Assignment for the position of Software Developer - Backend - Java
 
-This is an assignment for the interview of Backend Tech Lead in Java Stack. 
+This is an assignment for the interview of Backend Software Developer on Java Stack. 
 
 To complete this assignment, you're expected to complete the following tasks:
 

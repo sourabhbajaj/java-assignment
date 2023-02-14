@@ -1,4 +1,4 @@
-# SAuth API - Assignment for the position of Tech Lead - Backend - Java
+# SAuth API - Assignment for the position of Software Developer - Backend - Java
 
 This is an assignment for the interview of Backend Tech Lead in Java Stack. 
 
